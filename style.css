@@ -1,0 +1,120 @@
+:root {
+  --primary-color: #bfccb5;
+  --secondary-color: #70818f;
+  --third-color: #b7b7b7;
+  --background-color: #7d9baf;
+}
+
+body {
+  margin: auto;
+  padding: 0;
+  background-color: var(--background-color);
+}
+
+.hero {
+  text-align: center;
+  background-image: url(imagens/bg-2.jpg);
+  background-size: cover;
+  background-position: right center;
+  height: 500px;
+  color: white;
+  box-shadow: 0px 1px 5px rgb(60, 78, 90);
+}
+
+.hero h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 1px black;
+}
+
+.hero h2 {
+  display: inline-block;
+  margin: auto;
+  background-color: rgb(0, 0, 0, 0.7);
+  padding: 10px;
+  font-size: 15px;
+  border-bottom: white 2px solid;
+}
+
+.menu-principal {
+  margin: 0 50px 0 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: end;
+}
+
+.menu-principal li {
+  padding: 10px;
+  margin: 20px 0 60px 0;
+}
+
+.menu-principal a {
+  margin: 0 5px 0 5px;
+  padding: 10px;
+  border: 1px #ffffff solid;
+  background-color: rgb(0, 0, 0, 0.7);
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.menu-principal a:hover {
+  background-color: rgb(125, 155, 175, 0.7);
+  transition: 0.5s;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+  max-width: 860px;
+}
+
+article {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px 0 20px 0;
+}
+
+article,
+h3,
+.saiba-mais {
+  box-shadow: 2px 2px 0px black;
+}
+
+h3 {
+  margin: 0;
+  font-size: 150%;
+  color: #ffffff;
+  background-color: var(--secondary-color);
+  padding: 5px;
+  border-bottom: grey solid 1px;
+  text-shadow: 1px 1px 1px black;
+}
+
+.saiba-mais {
+  display: flex;
+  justify-content: flex-end;
+  width: fit-content;
+  margin: 5px 0 5px auto;
+  background-color: var(--secondary-color);
+  color: white;
+  text-shadow: 1px 0px 1px black;
+  text-decoration: none;
+  padding: 10px 13px;
+  border-radius: 3px;
+}
+
+.saiba-mais:hover {
+  transition: 0.5s;
+  background-color: var(--primary-color);
+}
+
+footer {
+  background-color: var(--secondary-color);
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 40px;
+  text-shadow: 1px 1px 1px black;
+}
