@@ -82,6 +82,10 @@ h3,
   box-shadow: 2px 2px 0px black;
 }
 
+article p {
+  text-indent: 28px;
+}
+
 h3 {
   margin: 0;
   font-size: 150%;
